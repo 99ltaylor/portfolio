@@ -66,6 +66,7 @@ img {
 #landing-page {
   text-align: left;
   font-family: monaco;
+  font-size:25px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -119,8 +120,8 @@ ul {
   margin-left: -20px; /* Half of the width to center the arrow */
   width: 40px;
   height: 40px;
-  border-bottom: 3px solid black;
-  border-right: 3px solid black;
+  border-bottom: 3px solid rgb(245, 107, 107);
+  border-right: 3px solid rgb(226, 79, 79);
   transform: rotate(45deg);
   animation: flash 2s infinite;
 }
