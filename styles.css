@@ -108,3 +108,24 @@ h3 {
 ul {
   display: inline; 
 }
+
+/* Create arrow shape */
+#flashing-arrow {
+  position: absolute;
+  top: 10px; /* Adjust this value based on where you want the arrow to appear */
+  left: 50%;
+  margin-left: -20px; /* Half of the width to center the arrow */
+  width: 40px;
+  height: 40px;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  transform: rotate(45deg);
+  animation: flash 2s infinite;
+}
+
+/* Create flashing animation */
+@keyframes flash {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
