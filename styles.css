@@ -132,3 +132,21 @@ ul {
   50% { opacity: 1; }
   100% { opacity: 0; }
 }
+
+/* Improve paragraph spacing */
+p {
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+/* Spacing around hyperlinks */
+a {
+  margin: 0 0.3em;
+  padding: 0.2em 0.4em;
+}
+
+/* To ensure that the spacing is not affected when the hyperlink is in a list or a paragraph */
+p a, li a {
+  margin: 0;
+  padding: 0;
+}
