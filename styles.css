@@ -150,3 +150,15 @@ p a, li a {
   margin: 0;
   padding: 0;
 }
+
+/* General spacing for all headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+/* Specific spacing for second-level headings (h2) */
+h2 {
+  margin-top: 2em;
+  margin-bottom: 1.2em;
+}
