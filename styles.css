@@ -23,7 +23,7 @@ body {
 .linknavbar {
   color: darkslategrey;
   text-decoration: none;
-  padding:15px;
+  padding: 15px;
   font-family: monaco;
   font-weight: bold;
 }
@@ -52,12 +52,17 @@ ul {
 
 /*images*/
 img {
-  width: 90%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }
 
 .image-moving-profile-pic {
-  width: 25%;
-  float:left;
+  max-width: 25%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -66,7 +71,7 @@ img {
 #landing-page {
   text-align: left;
   font-family: monaco;
-  font-size:25px;
+  font-size: 25px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -74,57 +79,32 @@ img {
   align-items: center;
 }
 
-#community-cadastre {
-  text-align: left;
-  font-size:25px;
-  color: black;
-  font-family: monaco;
-  padding: 50px;
-}
-#engaging-faith-communities {
-  text-align: left;
-  font-size:25px;
-  color: black;
-  font-family: monaco;
-  padding: 50px;
-}
-
-#public-sector-equality-duty {
-  text-align: left;
-  font-size:25px;
-  color: black;
-  font-family: monaco;
-  padding: 50px;
-}
-
+#community-cadastre,
+#engaging-faith-communities,
+#public-sector-equality-duty,
 #cv {
   text-align: left;
-  font-size:25px;
+  font-size: 25px;
   color: black;
   font-family: monaco;
   padding: 50px;
 }
 
-h2 {
-  font-weight:normal;
-}
-
-h3 {
-  font-size:25px;
-  font-weight:normal;
+h2, h3 {
+  font-weight: normal;
 }
 
 /* Prevents ul "stepdown" */
 ul {
-  display: inline; 
+  display: inline;
 }
 
 /* Create arrow shape */
 #flashing-arrow {
   position: absolute;
-  bottom: 10px; /* Adjust this value based on where you want the arrow to appear */
+  bottom: 10px;
   left: 50%;
-  margin-left: -20px; /* Half of the width to center the arrow */
+  margin-left: -20px;
   width: 40px;
   height: 40px;
   border-bottom: 3px solid rgb(245, 107, 107);
