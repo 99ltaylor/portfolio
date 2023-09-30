@@ -74,6 +74,13 @@ img {
   align-items: center;
 }
 
+#community-cadastre {
+  text-align: left;
+  font-size:25px;
+  color: black;
+  font-family: monaco;
+  padding: 50px;
+}
 #engaging-faith-communities {
   text-align: left;
   font-size:25px;

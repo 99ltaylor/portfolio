@@ -29,6 +29,57 @@
 
         <hr>
 
+        <section id="community-cadastre">
+            <h2>Community Cadastre</h2>
+            <p>Land ownership in England is a hidden and complicated issue. This is important because it ties together power, money, and influence. There's also a strong connection between land use, carbon emissions, and being eco-friendly.</p>
+        
+            <p>In the UK, there isn't a public list showing who owns what land or property (no cadastre). If we knew what kind of houses or buildings are in a community, we could better plan how to reduce carbon emissions. Different structures need different upgrades, like loft or wall insulation. I used free data and software to guess the age of buildings, which helps us know what kind of insulation they might need.</p>
+        
+            <p>My research question was - ‘How valuable are open geospatial datasets and geospatial open-source software in enabling communities to create their own ‘community cadastre’?’</p>
+            
+            <img src="images/a_houses.png" alt="house_types">
+            
+            <h4>My 4-Step Methodology</h4>
+        
+            <h4>1. Define 'Community Cadastre’</h4>
+            <p>I partnered with a community group. We decided on the following community cadastre criteria:</p>
+            <ol type="A"> 
+                <li>Information on whether the land is publicly or privately owned,</li>
+                <li>Details of the house archetype for each property,</li>
+                <li>Viewed on a map.</li>
+            </ol>
+        
+            <h4>2. Identify Relevant Open Geospatial Data and Software</h4>
+            <img src="images/b_opendata.png" alt="open_data">
+
+            <p>Geospatial Data Sources:</p>
+            <ol>
+                <li>Nottingham City Council-owned land polygons,</li>
+                <li>INSPIRE Index Land Polygons,</li>
+                <li>OSM Building polygons.</li>
+            </ol>
+        
+            <p>Open-source/Free-to-Use Software:</p>
+            <ol>
+                <li>QGIS,</li>
+                <li>Python & Jupyter Notebooks,</li>
+                <li>Felt.com.</li>
+            </ol>
+                
+            <h4>3. Use Machine Learning to Predict Missing Values</h4>
+            <p>Features included: land area, land perimeter, land vertices, land longitude, land latitude, house area, house perimeter, house vertices, house longitude, house latitude, building-to-land ratio.</p>
+        
+            <img src="images/c_workflow.png" alt="workflow">
+        
+            <h4>4. Create and Evaluate a Proof-of-Concept</h4>
+            <p>I designed a machine learning data processing workflow with various supervised and unsupervised algorithms. I evaluated the performance of each model, applied this to the unseen data, and uploaded the building age predictions to a map. You can see the map <a href="https://felt.com/map/The-Meadows-Community-Cadastre-zSR9C9CHsOSSy9BIRiv9Ayx4OD?loc=52.939297,-1.145295,17.9z&share=1" target="_blank" rel="noopener noreferrer">here</a>.</p>
+            <img src="images/d_output.png" alt="output">
+            <img src="images/e_felt_screenshot.png" alt="felt_screenshot">
+
+        </section>
+        
+        <hr>
+
         <section id="engaging-faith-communities">
             <h2>Engaging Faith Communities</h2>
             <p>In light of the Brexit Referendum result and an increase in hate crime statistics (including against particular faith and religous groups), the UK Government formed its <a href="https://www.google.com/url?q=https%3A%2F%2Fassets.publishing.service.gov.uk%2Fgovernment%2Fuploads%2Fsystem%2Fuploads%2Fattachment_data%2Ffile%2F777160%2FIntegrated_Communities_Strategy_Government_Response.pdf&sa=D&sntz=1&usg=AFQjCNGMwrAvmc-AVqa1mUKgyjGysALiFg" target="_blank" rel="noopener noreferrer"> Integrated Communities Strategy </a>. I designed a visual to facilitate discussions on how Government could increase its engagement with faith communities.</p>
@@ -65,14 +116,14 @@
             <h2>Curriculum Vitae</h2>
             <h2>Experience</h2>
             <ul>
-                <li>GDS</li>
+                <li>Government Digital Service</li>
                 <li>Local Authorities & Central Government</li>
                 <li>Teach First</li>
                 <li>UN-Habitat</li>
             </ul>
             <h2>Qualifications</h2>
             <ul>
-                <li>Master of Research in Geospatial Data Science, Nottingham Geospatial Institute</li>
+                <li>Master's in Geospatial Data Science, Nottingham Geospatial Institute</li>
                 <li>Service Design Certificate, University of Arts London</li>
                 <li>Graduate Diploma of Law, Nottingham Law School</li>
                 <li>Postgraduate Certificate of Education, UCL Institute of Education</li>
